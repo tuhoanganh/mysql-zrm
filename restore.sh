@@ -5,8 +5,6 @@ export green='\033[0;92m'
 export yellow='\033[0;93m'
 export nc='\033[0m'
 
-export STEP=5
-
 export FILE=$(echo '/tmp/temp-zrm')
 export FILE1=$(echo '/tmp/restore-zrm')
 export OPT=0

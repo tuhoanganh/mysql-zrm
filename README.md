@@ -13,7 +13,7 @@ It's very annoying.
 With this script, you simply choose the level 0 at 07:00 (menu list 1) and pick the level 1 at 17:00 (menu list 2) to do all the job.
 
 ## Requirements
-- OS: CentOS 7 (do not sure it works in another distro like Ubuntu Server, i'll test it late).
+- OS: CentOS 7 (do not sure if it works in another distro like Ubuntu Server, i'll test it late).
 - You have to install MySQL-ZRM version 3.0 at http://www.zmanda.com/download-zrm.php
 - Configure MySQL-ZRM and let it run/backup for a few days.
 - Verify that there are no backup is FAILED or ERROR.

@@ -328,7 +328,6 @@ do
              exit 1
            fi
            
-         
            break
          fi
        else
@@ -337,8 +336,6 @@ do
          echo ""
        fi
        done 
-
-
 
       break
     fi

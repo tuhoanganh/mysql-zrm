@@ -91,7 +91,7 @@ RE='^[0-9]{1,15}+$'
 if [[ $CHECKDATERANGE =~ $RE ]]; then
   :
 else
-  echo -e "${red}[ERROR ]${nc} The script can not get the right directory because the backup-directory or backup-date range in mysql-zrm-reporter is too small and it breaks a line into 2."
+  echo -e "${red}[ERROR ]${nc} The script can not get the correct directory because the backup-directory or backup-date range in mysql-zrm-reporter is too small and it breaks a line into 2."
   echo -e "${red}[ERROR ]${nc} Please do following task:"
   echo -e "${red}[ERROR ]${nc} - Increase the backup-date range (default value is 25) in /etc/mysql-zrm/mysql-zrm-reporter.conf."
   echo -e "${red}[ERROR ]${nc}   For example: backup-date = 40,<,%c"
